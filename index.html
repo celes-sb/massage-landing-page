@@ -2,39 +2,60 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=<h1>, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
     <title>Massage Landing Page</title>
   </head>
   <body>
-    <header>
-      <div>Header Logo</div>
-      <div>Header Link 1</div>
-      <div>Header Link 2</div>
-      <div>Header Link 3</div>
+    <header class="header">
+      <p>Header Logo</p>
+      <div class="header-links">
+        <a href="#">Header Link 1</a>
+        <a href="#">Header Link 2</a>
+        <a href="#">Header Link 3</a>
+      </div>
     </header>
     <div class="section-1">
+      <div class="section-1-left">
         <h1>This website is awesome</h1>
-        <p>Subtext</p>
+        <p>
+          This website has some subtext that goes here under the main title.
+          It's a smaller font and the color is lower contrast.
+        </p>
         <button>Sign up</button>
-        <img />
+      </div>
+      <img class="section-1-right" src="https://images.unsplash.com/photo-1591343395082-e120087004b4?q=80&w=2671&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Woman getting a massage" />
     </div>
     <div class="section-2">
-        <h1>Some random information</h1>
-        <div>Img1+p debajo</div>
-        <div>Img1+p debajo</div>
-        <div>Img1+p debajo</div>
-        <div>Img1+p debajo</div>
+      <h1>Some random information</h1>
+      <div class="section-2-grid">
+            <div class="img-grid">
+                <div class="img">Img1+p debajo</div>
+                <div class="img">Img1+p debajo</div>
+                <div class="img">Img1+p debajo</div>
+                <div class="img">Img1+p debajo</div>
+            </div>
+            <div class="subtext-grid">
+            <p>this is some subtext under an illustration or image</p>
+            <p>this is some subtext under an illustration or image</p>
+            <p>this is some subtext under an illustration or image</p>
+            <p>this is some subtext under an illustration or image</p>
+            </div>
     </div>
-     <div class="section-3">
-        <p>Quote</p>
-     </div>
-     <div class="section-4">
-       <div>
+      </div>
+    </div>
+    <div class="section-3">
+      <p>Quote</p>
+    </div>
+    <div class="section-4">
+      <div>
         <h5>Call to action! It's time!</h5>
         <p>Sign up for our product blablabla</p>
         <button>Sign up</button>
-       </div>
-     </div>
-    <footer><p>Footer</p></footer>
+      </div>
+    </div>
+    <footer class="footer">
+        <p>Footer</p>
+    </footer>
   </body>
 </html>
