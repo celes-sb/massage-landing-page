@@ -125,7 +125,7 @@ body {
 }
 
 .section-3 p {
-text-align: end;
+  text-align: end;
 }
 
 .section-4 {
@@ -139,7 +139,7 @@ text-align: end;
   justify-content: center;
   align-items: center;
   background-color: #3882f6;
-  gap: 200px;
+  gap: 150px;
   color: #f9faf8;
   border-radius: 8px;
   padding: 30px 100px;
@@ -163,4 +163,15 @@ text-align: end;
   background-color: transparent;
   border-color: #f9faf8;
   border-style: solid;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer > p {
+  font-size: 14px;
+  color: #f9faf8;
 }
