@@ -139,6 +139,28 @@ text-align: end;
   justify-content: center;
   align-items: center;
   background-color: #3882f6;
-  gap: 100px;
+  gap: 200px;
   color: #f9faf8;
+  border-radius: 8px;
+  padding: 30px 100px;
+}
+
+.section-4 > .section-4-div > .blue-left > h2 {
+  margin-bottom: 0px;
+}
+
+.section-4 > .section-4-div > .blue-left > p {
+  margin-top: 5px;
+}
+
+.section-4 > .section-4-div > .blue-right {
+  color: #f9faf8;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: transparent;
+  border-color: #f9faf8;
+  border-style: solid;
 }
