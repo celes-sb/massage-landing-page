@@ -94,6 +94,7 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .section-2 > .section-2-grid > .img-row > .img-subtext {
@@ -101,7 +102,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 40px;
+  margin: 10px;
+  flex-shrink: 1;
 }
 
 .section-2 > .section-2-grid > .img-row > .img-subtext > .img {
