@@ -3,7 +3,8 @@ body {
   margin: 0px;
 }
 
-.header, .footer {
+.header,
+.footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -17,10 +18,15 @@ body {
   color: #f9faf8;
 }
 
+.header > .header-links {
+  display: flex;
+  gap: 25px;
+}
+
 .header > .header-links > a {
   text-decoration: none;
   font-size: 18px;
-  color: #f9faf8;
+  color: #e5e7eb;
 }
 
 .section-1 {
@@ -28,28 +34,37 @@ body {
   display: flex;
   flex-direction: row;
   gap: 30px;
-  padding: 20px 60px 20px 60px;
+  padding: 20px 60px 60px 60px;
 }
 
 .section-1-left > button {
   color: #f9faf8;
   border-radius: 5px;
+  width: 30%;
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 8px;
   padding-bottom: 8px;
   background-color: #3882f6;
+  border: none;
 }
 
 .section-1-right {
   width: 45%;
   height: auto;
+  object-fit: cover;
+  border-radius: 10px;
 }
 
 .section-1 > .section-1-left > h1 {
   font-size: 48px;
   font-weight: bolder;
   color: #f9faf8;
+}
+
+.section-1 > .section-1-left > p {
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 .section-2 {
@@ -99,7 +114,7 @@ body {
   padding: 20px 60px 20px 60px;
   justify-content: center;
   align-items: center;
-  background-color: #E5E7EB;
+  background-color: #e5e7eb;
   color: #1f2937;
   font-size: 36px;
   font-style: italic;
@@ -111,7 +126,7 @@ body {
 }
 
 .section-4 > .section-4-div {
-display: flex;
+  display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
